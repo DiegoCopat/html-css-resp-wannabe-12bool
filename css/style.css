@@ -1,5 +1,6 @@
 body {
-    width: 1170px;
+    max-width: 1170px;
+    wodth: 100%;
     margin: 10px auto 50px auto; 
     text-align: center;
 }
@@ -24,6 +25,10 @@ p {
     padding: 0 10px;
 }
 
+hr {
+    width: 95%;
+    margin: 0 auto;
+}
 .circle {
     border-radius: 50%;
     background-color: #428BCA;
@@ -38,5 +43,39 @@ footer h3 {
 
 /* xs */
 @media screen and (max-width: 767px){
+    body {
+        width: 100%;
+        max-width: 767px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+    h1 {
+        margin: 5px 0;
+    }
+
+    header {
+        padding-bottom: 15px;
+        background-color: #F2F2CD;
+    }
+    footer {
+        background-color: #F2F2CD;
+    }
+    footer h2 {
+        margin-top: 10px;
+    }
+
+    .ultimo {
+        padding-bottom: 40px;
+    }
+    main h2 {
+        margin-top: 35px;
+    }
+
+}
+
     
 }
